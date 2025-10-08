@@ -5,12 +5,12 @@
   margin: 92px 24px 96px 24px;
 }
 
-.header_menu {
+.header-nav {
   padding-left: 26px;
   letter-spacing: 0.18px;
 }
 
-.header__links-list {
+.header-links {
   display: flex;
   margin: 44px 0px 39px 26px;
   column-gap: 34px;
@@ -30,7 +30,7 @@
   pointer-events: none;
 }
 
-.header__links-list-item_no-bullit {
+.header-links-item_no-bullit {
   list-style: none;
 }
 
