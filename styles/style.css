@@ -112,14 +112,14 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 135px;
+  margin-top: 110px;
 }
 
 .cover-description-text {
   font-size: 22px;
   line-height: calc(28 / 22 * 100%);
   word-spacing: 18px;
-  margin-left: 29px;
+  margin-left: 0;
 }
 
 .overlay {
