@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: 1fr auto 1fr;
   justify-content: space-between;
-  margin: 92px 24px 96px 24px;
+  margin: 92px 24px 94px 24px;
 }
 
 .header-nav {
@@ -12,7 +12,7 @@
 
 .header-links {
   display: flex;
-  margin: 44px 0px 39px 26px;
+  margin: 39px 0px 39px 0px;
   column-gap: 34px;
   font-weight: 400;
   font-size: 18px;
@@ -25,16 +25,16 @@
   text-underline-offset: 4px;
 }
 
-.header__link_active {
+.header-link-active {
   text-decoration: none;
   pointer-events: none;
 }
 
-.header-links-item_no-bullit {
+.header-links-item-no-bullit {
   list-style: none;
 }
 
-.header__logo {
+.header-logo {
   display: flex;
   justify-self: center;
   width: 148px;
@@ -42,7 +42,7 @@
   margin-bottom: 2px;
 }
 
-.header__logo-image {
+.header-logo-image {
   object-fit: contain;
 }
 
@@ -56,7 +56,7 @@
   text-underline-offset: 4px;
 }
 
-.header__address {
+.header-address {
   display: flex;
   flex-direction: column;
   justify-self: end;
@@ -83,12 +83,28 @@
 .cover-title {
   display: flex;
   flex-direction: column;
-  row-gap: 20px;
+  align-items: stretch;
+  row-gap: 39px;
   font-size: 100px;
   font-weight: 700;
-  line-height: calc(100 / 100 * 100%);
+  line-height: 100%;
   letter-spacing: 29px;
   position: relative;
+}
+
+.cover-title .ono {
+  text-align: left;
+}
+
+.cover-title .tebe {
+  text-align: center;
+  transform: translateX(15px)
+}
+
+.cover-title .nado {
+  text-align: right;
+  transform: translate(28px, -5px)
+
 }
 
 .cover-description {
