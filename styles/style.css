@@ -128,12 +128,11 @@
   cursor: pointer;
 }
 
-
 .lots {
   padding: 0px 24px 0 24px;
 }
 
-.lots__heading {
+.lots-header {
   font-size: 40px;
   font-weight: 700;
   line-height: 47px;
@@ -141,7 +140,7 @@
   text-transform: uppercase;
 }
 
-.lots__card-list {
+.lots-card-list {
   display: flex;
   flex-wrap: wrap;
   height: 100%;
@@ -150,9 +149,9 @@
   list-style: none;
   padding-bottom: 28px;
 }
-.lots__card-list-item {
+.lots-card-list-item {
   width: 334px;
-  min-height: 563px;
+  min-height: 596px;
 }
 
 .card {
@@ -171,7 +170,7 @@
   text-decoration: none;
 }
 
-.card__title {
+.card-title {
   font-size: 22px;
   font-weight: 700;
   line-height: 26px;
@@ -181,33 +180,33 @@
   text-decoration: underline;
   text-transform: uppercase;
   text-underline-offset: 2px;
-  color: var(--white);
+  color: #fff;
   z-index: 1;
 }
 
-.card__text {
+.card-text {
   font-size: 20px;
   line-height: 24px;
   margin-inline: 40px;
   margin-bottom: 48px;
-  color: var(--white);
+  color: #fff;
   text-decoration: none;
   z-index: 1;
 }
 
-.card_type_film {
+.card-type-film {
   background-image: url(../images/card-lot-01.jpg);
 }
 
-.card_type_book {
+.card-type-book {
   background-image: url(../images/card-lot-02.jpg);
 }
 
-.card_type_picture {
+.card-type-picture {
   background-image: url(../images/card-lot-03.jpg);
 }
 
-.lots__look-more-link {
+.lots-more {
   font-size: 20px;
   font-weight: 400;
   line-height: 28px;
@@ -216,6 +215,59 @@
   padding: 0 40px 0 40px;
   text-underline-offset: 5px;
   text-decoration-thickness: 1px;
+}
+
+.about {
+  padding: 146px 24px 0 31px;
+  display: flex;
+  align-items: flex-start;
+  gap: 72px;
+  width: 1052px;
+  box-sizing: border-box;
+}
+
+.about-logo {
+  width: 240px;
+  height: 240px;
+  background-color: #000;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.about-logo-img {
+  width: 140px; /* подгоните, чтобы логотип выглядел как на макете */
+  height: auto;
+  object-fit: contain;
+  display: block;
+}
+
+.about-column {
+  width: 700px; /* ваше значение */
+  box-sizing: border-box;
+  /* если нужен визуальный контур как на картинке — раскомментируйте: */
+  /* border: 2px solid rgba(0,0,0,0.1); padding: 24px; */
+}
+
+.about-title {
+  font-size: 40px;
+  font-weight: 700;
+  margin: 0 0 32px 0; /* заголовок прижат к верху колонки, снизу — расстояние до текста */
+  text-transform: uppercase;
+  line-height: 1;
+}
+
+.about-description {
+  display: flex;
+  flex-direction: column;
+  gap: 24px; /* vertical gap между параграфами */
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-right: 12px;
+  color: #111;
 }
 
 /* */
