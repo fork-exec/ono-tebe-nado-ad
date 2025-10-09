@@ -234,11 +234,11 @@
 }
 
 .about {
-  padding: 146px 24px 0 31px;
+  padding: 146px 0 0 31px;
   display: flex;
   align-items: flex-start;
   gap: 72px;
-  width: 1052px;
+  width: 1071px;
   box-sizing: border-box;
 }
 
@@ -251,6 +251,8 @@
   align-items: center;
   justify-content: center;
   box-sizing: border-box;
+  margin-left: 40px;
+  margin-top: 5px;
 }
 
 .about-logo-img {
@@ -261,16 +263,17 @@
 }
 
 .about-column {
-  width: 700px; /* ваше значение */
+  width: 693px; /* ваше значение */
   box-sizing: border-box;
   /* если нужен визуальный контур как на картинке — раскомментируйте: */
   /* border: 2px solid rgba(0,0,0,0.1); padding: 24px; */
+  margin-right: 0;
 }
 
 .about-title {
   font-size: 40px;
   font-weight: 700;
-  margin: 0 0 32px 0; /* заголовок прижат к верху колонки, снизу — расстояние до текста */
+  margin: 110px 0 0 0; /* заголовок прижат к верху колонки, снизу — расстояние до текста */
   text-transform: uppercase;
   line-height: 1;
 }
@@ -282,7 +285,8 @@
   font-size: 20px;
   font-weight: 400;
   line-height: 24px;
-  margin-right: 12px;
+  /* margin-right: 12px; */
+  margin-top: 105px;
   color: #111;
 }
 
